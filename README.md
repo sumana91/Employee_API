@@ -1,4 +1,4 @@
-# employee_api
+# Employee_APIs
 API calls to GET,PUT,POST,DELETE employee details using Node, Postgresql
 
 ## Install dependencies
