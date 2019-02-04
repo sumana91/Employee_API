@@ -1,11 +1,20 @@
-# Employee_APIs
-API calls to GET,PUT,POST,DELETE employee details using Node, Postgresql
+## Employee_APIs
+This application provides a set of API calls to do GET, PUT, POST, DELETE operations on employee details using Node, Postgresql
 
-## Install dependencies
-npm install
+### Requirements
+- Nodejs
+- Expressjs 
+- Postgresql
+- Knex
+- Bookshelf
 
-## Set up the db and run migration
-knex migrate:latest
+### Setup
+- Clone this repository and setup the database using knexfile
+- Run the migration file using `knex migrate:latest`
+- Run it locally
 
-## Run this code by :
-node app.js
+### Install dependencies
+- npm install --save
+
+## Run the application
+`node app.js`
